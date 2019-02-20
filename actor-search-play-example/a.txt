@@ -1,0 +1,215 @@
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project actor-search-play-example-build from plugins.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading project definition from D:\Apl\searchapp\actor-search-play-example\project[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading settings for project root from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSet current project to actor-search-play-example (in build file:/D:/Apl/searchapp/actor-search-play-example/)[0m
+[0m[[0m[0minfo[0m] [0m[0mExecuting in batch mode. For better performance use sbt's shell[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 8 Scala sources and 7 Java sources to D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\create.scala.html:7:15: method containsKey in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    @if(flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\create.scala.html:7:9: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    @if(flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\create.scala.html:11:18: method get in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          @flash.get("error")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\create.scala.html:11:12: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          @flash.get("error")[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:19:12: method containsKey in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m	@if(flash.containsKey("success") || flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m	          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:19:6: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m	@if(flash.containsKey("success") || flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m	    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:19:44: method containsKey in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m	@if(flash.containsKey("success") || flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m	                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:19:38: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m	@if(flash.containsKey("success") || flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m	                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:22:19: method containsKey in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        @if(flash.containsKey("success")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:22:13: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        @if(flash.containsKey("success")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:24:18: method get in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          @flash.get("success")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:24:12: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          @flash.get("success")[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:27:19: method containsKey in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        @if(flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:27:13: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        @if(flash.containsKey("error")) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:29:18: method get in class Flash is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          @flash.get("error")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\views\index.scala.html:29:12: method flash in class Implicit is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          @flash.get("error")[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m16 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mì¸èoóÕÉGÉâÅ[Ç™î≠ê∂ÇµÇ‹ÇµÇΩÅB[0m
+[0m[[0m[31merror[0m] [0m[0mè⁄ç◊ÇÕéüÇÃÉXÉ^ÉbÉNÅEÉgÉåÅ[ÉXÇ≈í≤ç∏ÇµÇƒÇ≠ÇæÇ≥Ç¢ÅB[0m
+[0m[[0m[31merror[0m] [0m[0mjava.nio.charset.MalformedInputException: Input length = 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.nio.charset.CoderResult.throwException(CoderResult.java:281)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.InputStreamReader.read(InputStreamReader.java:184)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.BufferedReader.fill(BufferedReader.java:161)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.BufferedReader.readLine(BufferedReader.java:324)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.BufferedReader.readLine(BufferedReader.java:389)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.nio.file.Files.readAllLines(Files.java:3205)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.routes.compiler.RoutesCompiler$GeneratedSource$.unapply(RoutesCompiler.scala:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.sbt.routes.RoutesCompilerCompat$$anonfun$$nestedInanonfun$routesPositionMapper$1$1.applyOrElse(RoutesCompilerCompat.scala:22)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.sbt.routes.RoutesCompilerCompat$$anonfun$$nestedInanonfun$routesPositionMapper$1$1.applyOrElse(RoutesCompilerCompat.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:224)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:220)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.collect(Option.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.sbt.routes.RoutesCompilerCompat.$anonfun$routesPositionMapper$1(RoutesCompilerCompat.scala:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$foldMappers$3(Defaults.scala:1608)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$foldMappers$4(Defaults.scala:1608)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$foldMappers$3(Defaults.scala:1608)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.LoggedReporter.log(LoggedReporter.scala:131)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.server.LanguageServerReporter.log(LanguageServerReporter.scala:58)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.javac.DiagnosticsReporter.report(DiagnosticsReporter.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.api.ClientCodeWrapper$WrappedDiagnosticListener.report(ClientCodeWrapper.java:593)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.util.Log.writeDiagnostic(Log.java:616)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.util.Log$DefaultDiagnosticHandler.report(Log.java:600)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.util.Log.report(Log.java:562)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Resolve.logResolveError(Resolve.java:3500)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Resolve.accessInternal(Resolve.java:2207)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Resolve.accessBase(Resolve.java:2250)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Resolve.accessBase(Resolve.java:2260)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Resolve.resolveIdent(Resolve.java:2371)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.visitIdent(Attr.java:3147)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.tree.JCTree$JCIdent.accept(JCTree.java:2011)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.visitSelect(Attr.java:3227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.tree.JCTree$JCFieldAccess.accept(JCTree.java:1897)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.visitApply(Attr.java:1815)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1465)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribArgs(Attr.java:664)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.visitApply(Attr.java:1806)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.tree.JCTree$JCMethodInvocation.accept(JCTree.java:1465)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.visitReturn(Attr.java:1676)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.tree.JCTree$JCReturn.accept(JCTree.java:1384)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribStat(Attr.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribStats(Attr.java:651)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.visitBlock(Attr.java:1114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:909)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribStat(Attr.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.visitMethodDef(Attr.java:1003)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:778)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribTree(Attr.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribStat(Attr.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribClassBody(Attr.java:4341)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribClass(Attr.java:4249)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attribClass(Attr.java:4178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.comp.Attr.attrib(Attr.java:4153)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.main.JavaCompiler.attribute(JavaCompiler.java:1248)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.main.JavaCompiler.compile2(JavaCompiler.java:901)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:860)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.main.Main.compile(Main.java:523)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:138)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.javac.LocalJavaCompiler.run(LocalJava.scala:183)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$11(AnalyzingJavaCompiler.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:105)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:133)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compileJava$1(MixedAnalyzingCompiler.scala:90)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.doCompile(Incremental.scala:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$compile$4(Incremental.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.recompileClasses(IncrementalCommon.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:63)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$compile$3(Incremental.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.manageClassfiles(Incremental.scala:134)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.compile(Incremental.scala:80)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompile$.apply(Compile.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:311)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:159)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:238)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:69)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:1549)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:1523)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:745)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.NoClassDefFoundError: play/Configuration[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.db.ebean.ModelsConfigLoader.apply(ModelsConfigLoader.java:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.db.ebean.ModelsConfigLoader.apply(ModelsConfigLoader.java:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.ebean.sbt.PlayEbean$.$anonfun$configuredEbeanModels$4(PlayEbean.scala:153)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.ebean.sbt.PlayEbean$.withClassLoader$1(PlayEbean.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.ebean.sbt.PlayEbean$.$anonfun$configuredEbeanModels$1(PlayEbean.scala:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:745)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ClassNotFoundException: play.Configuration[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.db.ebean.ModelsConfigLoader.apply(ModelsConfigLoader.java:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.db.ebean.ModelsConfigLoader.apply(ModelsConfigLoader.java:21)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.ebean.sbt.PlayEbean$.$anonfun$configuredEbeanModels$4(PlayEbean.scala:153)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.ebean.sbt.PlayEbean$.withClassLoader$1(PlayEbean.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at play.ebean.sbt.PlayEbean$.$anonfun$configuredEbeanModels$1(PlayEbean.scala:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(System.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:278)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:269)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:745)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mplayEbeanModels[0m) java.lang.NoClassDefFoundError: play/Configuration[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) javac returned non-zero exit code[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 9 s, completed 2019/02/19 22:09:03[0m
