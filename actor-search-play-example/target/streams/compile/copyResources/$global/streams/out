@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Apl\searchapp\actor-search-play-example\conf\application.conf,D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Apl\searchapp\actor-search-play-example\conf\evolutions,D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes\evolutions)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Apl\searchapp\actor-search-play-example\conf\evolutions\default,D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes\evolutions\default)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Apl\searchapp\actor-search-play-example\conf\evolutions\default\1.sql,D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes\evolutions\default\1.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Apl\searchapp\actor-search-play-example\conf\logback.xml,D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes\logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Apl\searchapp\actor-search-play-example\conf\messages,D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes\messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Apl\searchapp\actor-search-play-example\conf\routes,D:\Apl\searchapp\actor-search-play-example\target\scala-2.12\classes\routes)[0m

@@ -9,25 +9,25 @@
 		extra-sbtVersion="1.0"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190212224447"/>
+		date="20190221225249"/>
 	<dependencies>
 		<module organisation="com.typesafe.sbt" name="sbt-play-ebean">
-			<revision name="4.1.0" status="release" pubdate="20171218130636" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ebean" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="124">
+			<revision name="5.0.0" status="release" pubdate="20190131025034" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ebean" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="124">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="2163" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.sbt\sbt-play-ebean\ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.12/sbt_1.0/4.1.0/ivys/ivy.xml"/>
-				<caller organisation="default" name="actor-search-play-example-build" conf="test, compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<metadata-artifact status="no" details="" size="2169" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.sbt\sbt-play-ebean\ivy-5.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.12/sbt_1.0/5.0.0/ivys/ivy.xml"/>
+				<caller organisation="default" name="actor-search-play-example-build" conf="test, compile, runtime" rev="5.0.0" rev-constraint-default="5.0.0" rev-constraint-dynamic="5.0.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
-					<artifact name="sbt-play-ebean" type="jar" ext="jar" status="no" details="" size="13877" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.sbt\sbt-play-ebean\jars\sbt-play-ebean-4.1.0.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.12/sbt_1.0/4.1.0/jars/sbt-play-ebean.jar"/>
+					<artifact name="sbt-play-ebean" type="jar" ext="jar" status="no" details="" size="13825" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.sbt\sbt-play-ebean\jars\sbt-play-ebean-5.0.0.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.12/sbt_1.0/5.0.0/jars/sbt-play-ebean.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-play-enhancer">
-			<revision name="1.2.2" status="release" pubdate="20171006233526" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-enhancer" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="135">
+			<revision name="1.2.2" status="release" pubdate="20171006233526" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-enhancer" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="136">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="1713" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.sbt\sbt-play-enhancer\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.12/sbt_1.0/1.2.2/ivys/ivy.xml"/>
-				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="4.1.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="5.0.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
 					<artifact name="sbt-play-enhancer" type="jar" ext="jar" status="no" details="" size="14518" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.sbt\sbt-play-enhancer\jars\sbt-play-enhancer-1.2.2.jar">
 						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.12/sbt_1.0/1.2.2/jars/sbt-play-enhancer.jar"/>
@@ -36,7 +36,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-enhancer">
-			<revision name="1.2.2" status="release" pubdate="20171007083322" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-enhancer" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="136">
+			<revision name="1.2.2" status="release" pubdate="20171007083322" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-enhancer" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="137">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2704" time="0" location="d:\Apl\.ivy2\cache\com.typesafe.play\play-enhancer\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.2.2/play-enhancer-1.2.2.pom"/>
 				<caller organisation="com.typesafe.sbt" name="sbt-play-enhancer" conf="compile" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.2.2"/>
@@ -48,7 +48,7 @@
 			</revision>
 		</module>
 		<module organisation="org.javassist" name="javassist">
-			<revision name="3.21.0-GA" status="release" pubdate="20161004014507" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="137">
+			<revision name="3.21.0-GA" status="release" pubdate="20161004014507" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="138">
 				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
 				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
@@ -73,72 +73,71 @@
 			</revision>
 		</module>
 		<module organisation="io.ebean" name="ebean">
-			<revision name="11.7.1" status="release" pubdate="20190212224022" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ebean-orm.github.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="125">
+			<revision name="11.32.1" status="release" pubdate="20190221225236" resolver="Local Maven" artresolver="Local Maven" homepage="http://ebean-orm.github.io/" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="125">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="8276" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean\ivy-11.7.1.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean\11.7.1\ebean-11.7.1.pom"/>
-				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="11.7.1" rev-constraint-default="11.7.1" rev-constraint-dynamic="11.7.1" callerrev="4.1.0"/>
+				<metadata-artifact status="no" details="" size="11601" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean\ivy-11.32.1.xml" searched="true" original-local-location="d:\Apl\.m2\io\ebean\ebean\11.32.1\ebean-11.32.1.pom" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean\11.32.1\ebean-11.32.1.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="11.32.1" rev-constraint-default="11.32.1" rev-constraint-dynamic="11.32.1" callerrev="5.0.0"/>
 				<artifacts>
-					<artifact name="ebean" type="jar" ext="jar" status="no" details="" size="2107656" time="0" location="d:\Apl\.m2\io\ebean\ebean\11.7.1\ebean-11.7.1.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean\11.7.1\ebean-11.7.1.jar"/>
+					<artifact name="ebean" type="jar" ext="jar" status="no" details="" size="2482564" time="0" location="d:\Apl\.m2\io\ebean\ebean\11.32.1\ebean-11.32.1.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean\11.32.1\ebean-11.32.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.ebean" name="ebean-agent">
-			<revision name="11.5.1" status="release" pubdate="20190212224441" resolver="Local Maven" artresolver="Local Maven" homepage="http://ebean-orm.github.io/" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="134">
+			<revision name="11.27.1" status="release" pubdate="20190221225044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ebean-orm.github.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="135">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2632" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-agent\ivy-11.5.1.xml" searched="true" original-local-location="d:\Apl\.m2\io\ebean\ebean-agent\11.5.1\ebean-agent-11.5.1.pom" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-agent\11.5.1\ebean-agent-11.5.1.pom"/>
-				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="11.5.1" rev-constraint-default="11.5.1" rev-constraint-dynamic="11.5.1" callerrev="4.1.0"/>
+				<metadata-artifact status="no" details="" size="5123" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-agent\ivy-11.27.1.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-agent\11.27.1\ebean-agent-11.27.1.pom"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="11.27.1" rev-constraint-default="11.27.1" rev-constraint-dynamic="11.27.1" callerrev="5.0.0"/>
 				<artifacts>
-					<artifact name="ebean-agent" type="jar" ext="jar" status="no" details="" size="362847" time="0" location="d:\Apl\.m2\io\ebean\ebean-agent\11.5.1\ebean-agent-11.5.1.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-agent\11.5.1\ebean-agent-11.5.1.jar"/>
+					<artifact name="ebean-agent" type="jar" ext="jar" status="no" details="" size="309305" time="0" location="d:\Apl\.m2\io\ebean\ebean-agent\11.27.1\ebean-agent-11.27.1.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-agent\11.27.1\ebean-agent-11.27.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.antlr" name="antlr4-runtime">
-			<revision name="4.6" status="release" pubdate="20190212224056" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="133">
+			<revision name="4.7.1" status="release" pubdate="20190221225240" resolver="Local Maven" artresolver="Local Maven" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="134">
 				<license name="The BSD License" url="http://www.antlr.org/license.html"/>
-				<metadata-artifact status="no" details="" size="3631" time="0" location="d:\Apl\.ivy2\cache\org.antlr\antlr4-runtime\ivy-4.6.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\org\antlr\antlr4-runtime\4.6\antlr4-runtime-4.6.pom"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="4.6" rev-constraint-default="4.6" rev-constraint-dynamic="4.6" callerrev="11.7.1"/>
+				<metadata-artifact status="no" details="" size="3537" time="0" location="d:\Apl\.ivy2\cache\org.antlr\antlr4-runtime\ivy-4.7.1.xml" searched="true" original-local-location="d:\Apl\.m2\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.pom" origin-is-local="true" origin-location="d:\Apl\.m2\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.pom"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="4.7.1" rev-constraint-default="4.7.1" rev-constraint-dynamic="4.7.1" callerrev="11.32.1"/>
 				<artifacts>
-					<artifact name="antlr4-runtime" type="jar" ext="jar" status="no" details="" size="308316" time="0" location="d:\Apl\.m2\org\antlr\antlr4-runtime\4.6\antlr4-runtime-4.6.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\org\antlr\antlr4-runtime\4.6\antlr4-runtime-4.6.jar"/>
+					<artifact name="antlr4-runtime" type="jar" ext="jar" status="no" details="" size="336803" time="0" location="d:\Apl\.m2\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.ebean" name="ebean-migration">
-			<revision name="11.2.1" status="release" pubdate="20190212224056" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="132">
+			<revision name="11.13.1" status="release" pubdate="20190221225238" resolver="Local Maven" artresolver="Local Maven" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="133">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="5044" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-migration\ivy-11.2.1.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-migration\11.2.1\ebean-migration-11.2.1.pom"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="11.2.1" rev-constraint-default="11.2.1" rev-constraint-dynamic="11.2.1" callerrev="11.7.1"/>
+				<metadata-artifact status="no" details="" size="2716" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-migration\ivy-11.13.1.xml" searched="true" original-local-location="d:\Apl\.m2\io\ebean\ebean-migration\11.13.1\ebean-migration-11.13.1.pom" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-migration\11.13.1\ebean-migration-11.13.1.pom"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="11.13.1" rev-constraint-default="11.13.1" rev-constraint-dynamic="11.13.1" callerrev="11.32.1"/>
 				<artifacts>
-					<artifact name="ebean-migration" type="jar" ext="jar" status="no" details="" size="39860" time="0" location="d:\Apl\.m2\io\ebean\ebean-migration\11.2.1\ebean-migration-11.2.1.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-migration\11.2.1\ebean-migration-11.2.1.jar"/>
+					<artifact name="ebean-migration" type="jar" ext="jar" status="no" details="" size="48130" time="0" location="d:\Apl\.m2\io\ebean\ebean-migration\11.13.1\ebean-migration-11.13.1.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-migration\11.13.1\ebean-migration-11.13.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.avaje" name="avaje-classpath-scanner">
-			<revision name="2.2.4" status="release" pubdate="20190212224026" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="131">
+			<revision name="3.1.1" status="release" pubdate="20190221225238" resolver="Local Maven" artresolver="Local Maven" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="131">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="4286" time="0" location="d:\Apl\.ivy2\cache\org.avaje\avaje-classpath-scanner\ivy-2.2.4.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner\2.2.4\avaje-classpath-scanner-2.2.4.pom"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="11.7.1"/>
-				<caller organisation="io.ebean" name="ebean-migration" conf="compile, runtime" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="11.2.1"/>
+				<metadata-artifact status="no" details="" size="2636" time="0" location="d:\Apl\.ivy2\cache\org.avaje\avaje-classpath-scanner\ivy-3.1.1.xml" searched="true" original-local-location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner\3.1.1\avaje-classpath-scanner-3.1.1.pom" origin-is-local="true" origin-location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner\3.1.1\avaje-classpath-scanner-3.1.1.pom"/>
+				<caller organisation="io.ebean" name="ebean-migration" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="11.13.1"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="11.32.1"/>
 				<artifacts>
-					<artifact name="avaje-classpath-scanner" type="jar" ext="jar" status="no" details="" size="38906" time="0" location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner\2.2.4\avaje-classpath-scanner-2.2.4.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner\2.2.4\avaje-classpath-scanner-2.2.4.jar"/>
+					<artifact name="avaje-classpath-scanner" type="jar" ext="jar" status="no" details="" size="38903" time="0" location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner\3.1.1\avaje-classpath-scanner-3.1.1.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner\3.1.1\avaje-classpath-scanner-3.1.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.avaje" name="avaje-classpath-scanner-api">
-			<revision name="2.2" status="release" pubdate="20190212224026" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="130">
+			<revision name="2.2" status="release" pubdate="20190212224026" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="132">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3351" time="0" location="d:\Apl\.ivy2\cache\org.avaje\avaje-classpath-scanner-api\ivy-2.2.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner-api\2.2\avaje-classpath-scanner-api-2.2.pom"/>
-				<caller organisation="org.avaje" name="avaje-classpath-scanner" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="2.2.4"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="11.7.1"/>
+				<caller organisation="org.avaje" name="avaje-classpath-scanner" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="3.1.1"/>
 				<artifacts>
 					<artifact name="avaje-classpath-scanner-api" type="jar" ext="jar" status="no" details="" size="7600" time="0" location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner-api\2.2\avaje-classpath-scanner-api-2.2.jar">
 						<origin-location is-local="true" location="d:\Apl\.m2\org\avaje\avaje-classpath-scanner-api\2.2\avaje-classpath-scanner-api-2.2.jar"/>
@@ -146,51 +145,62 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.avaje" name="avaje-datasource">
-			<revision name="2.1.2" status="release" pubdate="20190212224025" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="129">
+		<module organisation="io.ebean" name="ebean-datasource">
+			<revision name="4.3.2" status="release" pubdate="20190221225237" resolver="Local Maven" artresolver="Local Maven" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="129">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="4868" time="0" location="d:\Apl\.ivy2\cache\org.avaje\avaje-datasource\ivy-2.1.2.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\org\avaje\avaje-datasource\2.1.2\avaje-datasource-2.1.2.pom"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="11.7.1"/>
+				<metadata-artifact status="no" details="" size="2021" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-datasource\ivy-4.3.2.xml" searched="true" original-local-location="d:\Apl\.m2\io\ebean\ebean-datasource\4.3.2\ebean-datasource-4.3.2.pom" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-datasource\4.3.2\ebean-datasource-4.3.2.pom"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="11.32.1"/>
 				<artifacts>
-					<artifact name="avaje-datasource" type="jar" ext="jar" status="no" details="" size="49198" time="0" location="d:\Apl\.m2\org\avaje\avaje-datasource\2.1.2\avaje-datasource-2.1.2.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\org\avaje\avaje-datasource\2.1.2\avaje-datasource-2.1.2.jar"/>
+					<artifact name="ebean-datasource" type="jar" ext="jar" status="no" details="" size="50816" time="0" location="d:\Apl\.m2\io\ebean\ebean-datasource\4.3.2\ebean-datasource-4.3.2.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-datasource\4.3.2\ebean-datasource-4.3.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.avaje" name="avaje-datasource-api">
-			<revision name="1.1" status="release" pubdate="20190212224024" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="128">
+		<module organisation="io.ebean" name="ebean-datasource-api">
+			<revision name="4.3" status="release" pubdate="20190221225238" resolver="Local Maven" artresolver="Local Maven" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="130">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3476" time="0" location="d:\Apl\.ivy2\cache\org.avaje\avaje-datasource-api\ivy-1.1.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\org\avaje\avaje-datasource-api\1.1\avaje-datasource-api-1.1.pom"/>
-				<caller organisation="org.avaje" name="avaje-datasource" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="2.1.2"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="11.7.1"/>
+				<metadata-artifact status="no" details="" size="1584" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-datasource-api\ivy-4.3.xml" searched="true" original-local-location="d:\Apl\.m2\io\ebean\ebean-datasource-api\4.3\ebean-datasource-api-4.3.pom" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-datasource-api\4.3\ebean-datasource-api-4.3.pom"/>
+				<caller organisation="io.ebean" name="ebean-datasource" conf="compile, runtime" rev="4.3" rev-constraint-default="4.3" rev-constraint-dynamic="4.3" callerrev="4.3.2"/>
 				<artifacts>
-					<artifact name="avaje-datasource-api" type="jar" ext="jar" status="no" details="" size="10307" time="0" location="d:\Apl\.m2\org\avaje\avaje-datasource-api\1.1\avaje-datasource-api-1.1.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\org\avaje\avaje-datasource-api\1.1\avaje-datasource-api-1.1.jar"/>
+					<artifact name="ebean-datasource-api" type="jar" ext="jar" status="no" details="" size="15129" time="0" location="d:\Apl\.m2\io\ebean\ebean-datasource-api\4.3\ebean-datasource-api-4.3.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-datasource-api\4.3\ebean-datasource-api-4.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.ebean" name="ebean-annotation">
-			<revision name="3.5" status="release" pubdate="20190212224024" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="127">
+			<revision name="4.4" status="release" pubdate="20190221225237" resolver="Local Maven" artresolver="Local Maven" homepage="" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="128">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="4358" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-annotation\ivy-3.5.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-annotation\3.5\ebean-annotation-3.5.pom"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="11.7.1"/>
+				<metadata-artifact status="no" details="" size="1353" time="0" location="d:\Apl\.ivy2\cache\io.ebean\ebean-annotation\ivy-4.4.xml" searched="true" original-local-location="d:\Apl\.m2\io\ebean\ebean-annotation\4.4\ebean-annotation-4.4.pom" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\ebean-annotation\4.4\ebean-annotation-4.4.pom"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="4.4" rev-constraint-default="4.4" rev-constraint-dynamic="4.4" callerrev="11.32.1"/>
 				<artifacts>
-					<artifact name="ebean-annotation" type="jar" ext="jar" status="no" details="" size="35170" time="0" location="d:\Apl\.m2\io\ebean\ebean-annotation\3.5\ebean-annotation-3.5.jar">
-						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-annotation\3.5\ebean-annotation-3.5.jar"/>
+					<artifact name="ebean-annotation" type="jar" ext="jar" status="no" details="" size="39416" time="0" location="d:\Apl\.m2\io\ebean\ebean-annotation\4.4\ebean-annotation-4.4.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\ebean-annotation\4.4\ebean-annotation-4.4.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.ebean" name="persistence-api">
-			<revision name="2.2.1" status="release" pubdate="20190212224023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="126">
+			<revision name="2.2.1" status="release" pubdate="20190212224023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="127">
 				<license name="Eclipse Public License - v 1.0" url="https://www.eclipse.org/legal/epl-v10.html"/>
 				<metadata-artifact status="no" details="" size="4152" time="0" location="d:\Apl\.ivy2\cache\io.ebean\persistence-api\ivy-2.2.1.xml" searched="false" origin-is-local="true" origin-location="d:\Apl\.m2\io\ebean\persistence-api\2.2.1\persistence-api-2.2.1.pom"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="11.7.1"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="11.32.1"/>
 				<artifacts>
 					<artifact name="persistence-api" type="jar" ext="jar" status="no" details="" size="70053" time="0" location="d:\Apl\.m2\io\ebean\persistence-api\2.2.1\persistence-api-2.2.1.jar">
 						<origin-location is-local="true" location="d:\Apl\.m2\io\ebean\persistence-api\2.2.1\persistence-api-2.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.21" status="release" pubdate="20190221225236" resolver="Local Maven" artresolver="Local Maven" homepage="http://www.snakeyaml.org" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="126">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="37798" time="0" location="d:\Apl\.ivy2\cache\org.yaml\snakeyaml\ivy-1.21.xml" searched="true" original-local-location="d:\Apl\.m2\org\yaml\snakeyaml\1.21\snakeyaml-1.21.pom" origin-is-local="true" origin-location="d:\Apl\.m2\org\yaml\snakeyaml\1.21\snakeyaml-1.21.pom"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="1.21" rev-constraint-default="1.21" rev-constraint-dynamic="1.21" callerrev="11.32.1"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="bundle" ext="jar" status="no" details="" size="299308" time="0" location="d:\Apl\.m2\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar">
+						<origin-location is-local="true" location="d:\Apl\.m2\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -758,7 +768,7 @@
 			<revision name="2.7.0" status="release" pubdate="20190130222201" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-scalaVersion="2.12" extra-sbtVersion="1.0" extra-info.apiURL="https://www.playframework.com/documentation/2.7.0/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3578" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.play\sbt-plugin\ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.12/sbt_1.0/2.7.0/ivys/ivy.xml"/>
-				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="2.6.9" rev-constraint-default="2.6.9" rev-constraint-dynamic="2.6.9" callerrev="4.1.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="2.7.0-RC9" rev-constraint-default="2.7.0-RC9" rev-constraint-dynamic="2.7.0-RC9" callerrev="5.0.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<caller organisation="default" name="actor-search-play-example-build" conf="test, compile, runtime" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
 					<artifact name="sbt-plugin" type="jar" ext="jar" status="no" details="" size="217606" time="0" location="d:\Apl\.ivy2\cache\scala_2.12\sbt_1.0\com.typesafe.play\sbt-plugin\jars\sbt-plugin-2.7.0.jar">
@@ -766,9 +776,9 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.6.9" evicted="latest-revision" evicted-reason="" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" conf="compile, default(compile)" position="-1">
+			<revision name="2.7.0-RC9" evicted="latest-revision" evicted-reason="" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="false" searched="false" conf="compile, default(compile)" position="-1">
 				<evicted-by rev="2.7.0"/>
-				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="2.6.9" rev-constraint-default="2.6.9" rev-constraint-dynamic="2.6.9" callerrev="4.1.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="2.7.0-RC9" rev-constraint-default="2.7.0-RC9" rev-constraint-dynamic="2.7.0-RC9" callerrev="5.0.0" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
 				<artifacts>
 				</artifacts>
 			</revision>
@@ -959,8 +969,8 @@
 				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-jaxb-annotations" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
 				<caller organisation="org.webjars" name="webjars-locator-core" conf="default, compile, runtime, master" rev="2.9.7" rev-constraint-default="2.9.7" rev-constraint-dynamic="2.9.7" callerrev="0.36"/>
 				<caller organisation="com.fasterxml.jackson.jaxrs" name="jackson-jaxrs-base" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="11.7.1"/>
 				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.6" rev-constraint-default="2.9.6" rev-constraint-dynamic="2.9.6" callerrev="2.9.6"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.9.5" rev-constraint-default="2.9.5" rev-constraint-dynamic="2.9.5" callerrev="11.32.1"/>
 				<artifacts>
 					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="324036" time="0" location="d:\Apl\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.9.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.7/jackson-core-2.9.7.jar"/>
@@ -978,9 +988,9 @@
 				<artifacts>
 				</artifacts>
 			</revision>
-			<revision name="2.9.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.9.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<evicted-by rev="2.9.7"/>
-				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="11.7.1"/>
+				<caller organisation="io.ebean" name="ebean" conf="default, compile, runtime, master" rev="2.9.5" rev-constraint-default="2.9.5" rev-constraint-dynamic="2.9.5" callerrev="11.32.1"/>
 				<artifacts>
 				</artifacts>
 			</revision>
@@ -1801,20 +1811,14 @@
 			<revision name="1.3.3" status="release" pubdate="20180221230821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
 				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2909" time="0" location="d:\Apl\.ivy2\cache\com.typesafe\config\ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom"/>
-				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="4.1.0"/>
 				<caller organisation="com.typesafe.play" name="sbt-plugin" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="2.7.0"/>
+				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="5.0.0"/>
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="2.5.17"/>
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="2.5.18"/>
 				<artifacts>
 					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="286090" time="0" location="d:\Apl\.ivy2\cache\com.typesafe\config\bundles\config-1.3.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-			<revision name="1.3.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, compile, runtime, default(compile), master" position="-1">
-				<evicted-by rev="1.3.3"/>
-				<caller organisation="com.typesafe.sbt" name="sbt-play-ebean" conf="compile" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="4.1.0"/>
-				<artifacts>
 				</artifacts>
 			</revision>
 		</module>
@@ -1880,32 +1884,24 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.25" status="release" pubdate="20170317013632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="1.7.25" status="release" pubdate="20170317013632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="no" details="" size="5250" time="0" location="d:\Apl\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
-				<caller organisation="org.avaje" name="avaje-classpath-scanner" conf="compile, runtime" rev="[1.7,1.8)" rev-constraint-default="[1.7,1.8)" rev-constraint-dynamic="[1.7,1.8)" callerrev="2.2.4"/>
-				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
-				<caller organisation="org.webjars" name="webjars-locator-core" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.36"/>
-				<caller organisation="io.methvin" name="directory-watcher" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.8.1"/>
-				<caller organisation="org.avaje" name="avaje-datasource-api" conf="compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.1"/>
+				<metadata-artifact status="no" details="" size="5250" time="0" location="d:\Apl\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
 				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit.pgm" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="4.9.0.201710071750-r"/>
 				<caller organisation="com.spotify" name="docker-client" conf="default, compile, runtime, master" rev="1.7.22" rev-constraint-default="1.7.22" rev-constraint-dynamic="1.7.22" callerrev="8.14.3"/>
 				<caller organisation="org.eclipse.jgit" name="org.eclipse.jgit" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="4.9.0.201710071750-r"/>
+				<caller organisation="org.slf4j" name="slf4j-simple" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.7.25"/>
+				<caller organisation="org.webjars" name="webjars-locator-core" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.36"/>
 				<caller organisation="io.apigee.trireme" name="trireme-node10src" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.9.4"/>
 				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="1.7.2"/>
 				<caller organisation="io.apigee.trireme" name="trireme-core" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.9.4"/>
 				<caller organisation="io.apigee.trireme" name="trireme-kernel" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="0.9.4"/>
 				<caller organisation="com.typesafe" name="jse_2.12" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.4"/>
+				<caller organisation="io.methvin" name="directory-watcher" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.8.1"/>
 				<artifacts>
 					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41203" time="0" location="d:\Apl\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.25.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-			<revision name="1.7.12" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
-				<evicted-by rev="1.7.25"/>
-				<caller organisation="org.avaje" name="avaje-datasource-api" conf="compile, runtime" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.1"/>
-				<artifacts>
 				</artifacts>
 			</revision>
 			<revision name="1.7.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">

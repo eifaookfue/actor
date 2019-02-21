@@ -23,6 +23,7 @@ import utils.DateParser;
 import views.form.ActorForm;
 import views.html.*;
 
+
 public class Application extends Controller{
 	private static final Logger logger = LoggerFactory.getLogger(Application.class);
 	@Inject
@@ -34,13 +35,13 @@ public class Application extends Controller{
 	public Result index () {
 		logger.info("Application#index");
 		List<Actor> actor = Actor.finder.all();
-		return ok(index.render("Actor List", actor));
+		return ok(index.render("Actor List", actor, messages()));
 	}
 
 	public Result detail(Long id) {
 		logger.info("Application#detail");
 		Actor actor = Actor.finder.byId(id);
-		return ok(detail.render("Action Detail", actor));
+		return ok(detail.render("Action Detail", actor, messages()));
 	}
 
 	public Result create() {
@@ -48,7 +49,7 @@ public class Application extends Controller{
 		ActorForm form  = new ActorForm();
 
 		Form<ActorForm> formData = formFactory.form(ActorForm.class).fill(form);
-		return ok(create.render("Actor Create", formData));
+		return ok(create.render("Actor Create", formData, messages()));
 	}
 
 	public Result save() {
@@ -56,7 +57,7 @@ public class Application extends Controller{
 		Form<ActorForm> formData = formFactory.form(ActorForm.class).bindFromRequest();
 		if (formData.hasErrors()){
 			flash("error", messages().at("actor.validation.error"));
-			return badRequest(create.render("retry", formData));
+			return badRequest(create.render("retry", formData, messages()));
 		} else {
 			Actor actor = Actor.convertToModel(formData.get());
 			Ebean.execute(() -> {
@@ -75,7 +76,7 @@ public class Application extends Controller{
 		if (id == null || id == 0L) {
 			flash("error", messages().at("actor.validation.error"));
 			List<Actor> actor = Actor.finder.all();
-			return badRequest(index.render("Actor List", actor));
+			return badRequest(index.render("Actor List", actor, messages()));
 		} else {
 			Boolean result = Ebean.executeCall(() -> {
 				Actor actor = Actor.finder.byId(id);
@@ -174,6 +175,8 @@ public class Application extends Controller{
 		} catch (Exception e) {
 			System.out.println(e.getStackTrace());
 		}
+
+		return redirect(routes.Application.index());
 	}
 
 	protected Messages messages() {

@@ -47,35 +47,5 @@
 [0m[[0m[33mwarn[0m] [0m[0m          @flash.get("error")[0m
 [0m[[0m[33mwarn[0m] [0m[0m           ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m16 warnings found[0m
-[0m[[0m[31merror[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\Application.java:37:1: クラス views.html.indexのメソッド renderは指定された型に適用できません。[0m
-[0m[[0m[31merror[0m] [0m[0m  期待値: java.lang.String,java.util.List<models.Actor>,play.i18n.Messages[0m
-[0m[[0m[31merror[0m] [0m[0m  検出値: java.lang.String,java.util.List<models.Actor>[0m
-[0m[[0m[31merror[0m] [0m[0m  理由: 実引数リストと仮引数リストの長さが異なります[0m
-[0m[[0m[31merror[0m] [0m[0m		return ok(index.render("Actor List", actor));[0m
-[0m[[0m[31merror[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\Application.java:43:1: クラス views.html.detailのメソッド renderは指定された型に適用できません。[0m
-[0m[[0m[31merror[0m] [0m[0m  期待値: java.lang.String,models.Actor,play.i18n.Messages[0m
-[0m[[0m[31merror[0m] [0m[0m  検出値: java.lang.String,models.Actor[0m
-[0m[[0m[31merror[0m] [0m[0m  理由: 実引数リストと仮引数リストの長さが異なります[0m
-[0m[[0m[31merror[0m] [0m[0m		return ok(detail.render("Action Detail", actor));[0m
-[0m[[0m[31merror[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\Application.java:51:1: クラス views.html.createのメソッド renderは指定された型に適用できません。[0m
-[0m[[0m[31merror[0m] [0m[0m  期待値: java.lang.String,play.data.Form<views.form.ActorForm>,play.i18n.Messages[0m
-[0m[[0m[31merror[0m] [0m[0m  検出値: java.lang.String,play.data.Form<views.form.ActorForm>[0m
-[0m[[0m[31merror[0m] [0m[0m  理由: 実引数リストと仮引数リストの長さが異なります[0m
-[0m[[0m[31merror[0m] [0m[0m		return ok(create.render("Actor Create", formData));[0m
-[0m[[0m[31merror[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\Application.java:59:1: クラス views.html.createのメソッド renderは指定された型に適用できません。[0m
-[0m[[0m[31merror[0m] [0m[0m  期待値: java.lang.String,play.data.Form<views.form.ActorForm>,play.i18n.Messages[0m
-[0m[[0m[31merror[0m] [0m[0m  検出値: java.lang.String,play.data.Form<views.form.ActorForm>[0m
-[0m[[0m[31merror[0m] [0m[0m  理由: 実引数リストと仮引数リストの長さが異なります[0m
-[0m[[0m[31merror[0m] [0m[0m			return badRequest(create.render("retry", formData));[0m
-[0m[[0m[31merror[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\Application.java:78:1: クラス views.html.indexのメソッド renderは指定された型に適用できません。[0m
-[0m[[0m[31merror[0m] [0m[0m  期待値: java.lang.String,java.util.List<models.Actor>,play.i18n.Messages[0m
-[0m[[0m[31merror[0m] [0m[0m  検出値: java.lang.String,java.util.List<models.Actor>[0m
-[0m[[0m[31merror[0m] [0m[0m  理由: 実引数リストと仮引数リストの長さが異なります[0m
-[0m[[0m[31merror[0m] [0m[0m			return badRequest(index.render("Actor List", actor));[0m
-[0m[[0m[31merror[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\HomeController.java:18:1: クラス views.html.indexのメソッド renderは指定された型に適用できません。[0m
-[0m[[0m[31merror[0m] [0m[0m  期待値: java.lang.String,java.util.List<models.Actor>,play.i18n.Messages[0m
-[0m[[0m[31merror[0m] [0m[0m  検出値: 引数がありません[0m
-[0m[[0m[31merror[0m] [0m[0m  理由: 実引数リストと仮引数リストの長さが異なります[0m
-[0m[[0m[31merror[0m] [0m[0m        return ok(views.html.index.render());[0m
 [0m[[0m[0minfo[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\Application.java: D:\Apl\searchapp\actor-search-play-example\app\controllers\Application.javaは非推奨のAPIを使用またはオーバーライドしています。[0m
 [0m[[0m[0minfo[0m] [0m[0mD:\Apl\searchapp\actor-search-play-example\app\controllers\Application.java: 詳細は、-Xlint:deprecationオプションを指定して再コンパイルしてください。[0m

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/Apl/searchapp/actor-search-play-example/conf/routes
-// @DATE:Wed Feb 20 22:57:14 JST 2019
+// @DATE:Thu Feb 21 22:47:08 JST 2019
 
 package router
 

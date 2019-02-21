@@ -4,7 +4,7 @@
 		module="actor-search-play-example_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190220225714"
+		publication="20190221225506"
 	>
 		<description>
 		actor-search-play-example
@@ -46,7 +46,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-enhancer" rev="1.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="twirl-api_2.12" rev="1.4.0" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-ebean_2.12" rev="4.1.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ebean_2.12" rev="5.0.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-server_2.12" rev="2.7.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-test_2.12" rev="2.7.0" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-omnidoc_2.12" rev="2.7.0" conf="docs->default(compile)"/>
