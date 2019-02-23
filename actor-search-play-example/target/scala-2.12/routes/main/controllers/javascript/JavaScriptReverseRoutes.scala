@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/Apl/searchapp/actor-search-play-example/conf/routes
-// @DATE:Thu Feb 21 22:47:08 JST 2019
+// @DATE:Sat Feb 23 08:47:12 JST 2019
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -39,6 +39,16 @@ package controllers.javascript {
     }
 
   
+    // @LINE:9
+    def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.save",
+      """
+        function() {
+          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "actor/save"})
+        }
+      """
+    )
+  
     // @LINE:10
     def delete: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.delete",
@@ -59,16 +69,6 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:8
-    def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.create",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "actor/create"})
-        }
-      """
-    )
-  
     // @LINE:12
     def init: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.Application.init",
@@ -79,12 +79,12 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:9
-    def save: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.Application.save",
+    // @LINE:8
+    def create: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.Application.create",
       """
         function() {
-          return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "actor/save"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "actor/create"})
         }
       """
     )

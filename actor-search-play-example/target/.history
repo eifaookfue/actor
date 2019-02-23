@@ -83,3 +83,11 @@ run
 compile
 run
 exit
+compile
+exit
+compile
+run
+clean
+compile
+~compile
+exit

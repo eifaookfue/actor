@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:D:/Apl/searchapp/actor-search-play-example/conf/routes
-// @DATE:Thu Feb 21 22:47:08 JST 2019
+// @DATE:Sat Feb 23 08:47:12 JST 2019
 
 import play.api.mvc.Call
 
@@ -33,6 +33,12 @@ package controllers {
     }
 
   
+    // @LINE:9
+    def save(): Call = {
+      
+      Call("POST", _prefix + { _defaultPrefix } + "actor/save")
+    }
+  
     // @LINE:10
     def delete(id:Long): Call = {
       
@@ -45,22 +51,16 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "actor/detail/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[Long]].unbind("id", id)))
     }
   
-    // @LINE:8
-    def create(): Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "actor/create")
-    }
-  
     // @LINE:12
     def init(): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "init")
     }
   
-    // @LINE:9
-    def save(): Call = {
+    // @LINE:8
+    def create(): Call = {
       
-      Call("POST", _prefix + { _defaultPrefix } + "actor/save")
+      Call("GET", _prefix + { _defaultPrefix } + "actor/create")
     }
   
     // @LINE:5

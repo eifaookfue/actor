@@ -1,6 +1,6 @@
-2019-02-21 23:06:57,910 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-7 - Database [default] initialized at jdbc:h2:mem:play;MODE=MYSQL;DB_CLOSE_DELAY=-1
-2019-02-21 23:06:57,911 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-7 - Creating Pool for datasource 'default'
-2019-02-21 23:07:00,176 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-7 - Using the following cache configuration for assets:
+2019-02-23 08:44:41,974 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:h2:mem:play;MODE=MYSQL;DB_CLOSE_DELAY=-1
+2019-02-23 08:44:41,975 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2019-02-23 08:44:43,652 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-2 - Using the following cache configuration for assets:
 	 enableCaching = false
 	 enableCacheControl = false
 	 defaultCacheControl = public, max-age=3600
@@ -8,16 +8,16 @@
 	 configuredCacheControl:
 
 
-2019-02-21 23:07:00,234 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-7 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-02-23 08:44:43,691 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-02-21 23:07:00,243 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-7 - Application started (Dev) (no global state)
-2019-02-21 23:07:00,354 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-7 - 
+2019-02-23 08:44:43,698 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
+2019-02-23 08:44:43,825 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-2 - 
 
-! @7b201ko47 - Internal server error, for (GET) [/] ->
+! @7b2a6io3f - Internal server error, for (GET) [/] ->
  
 play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
 	at play.api.db.evolutions.EvolutionsWebCommands.$anonfun$handleWebCommand$5(ApplicationEvolutions.scala:418)
@@ -58,10 +58,10 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
 	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
 	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-02-21 23:07:05,250 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
-2019-02-21 23:07:05,479 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-8 - Database [default] initialized at jdbc:h2:mem:play;MODE=MYSQL;DB_CLOSE_DELAY=-1
-2019-02-21 23:07:05,479 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-8 - Creating Pool for datasource 'default'
-2019-02-21 23:07:05,669 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-8 - Using the following cache configuration for assets:
+2019-02-23 08:44:47,511 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2019-02-23 08:44:47,758 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-5 - Database [default] initialized at jdbc:h2:mem:play;MODE=MYSQL;DB_CLOSE_DELAY=-1
+2019-02-23 08:44:47,758 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-5 - Creating Pool for datasource 'default'
+2019-02-23 08:44:47,940 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-5 - Using the following cache configuration for assets:
 	 enableCaching = false
 	 enableCacheControl = false
 	 defaultCacheControl = public, max-age=3600
@@ -69,24 +69,28 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	 configuredCacheControl:
 
 
-2019-02-21 23:07:05,673 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-8 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-02-23 08:44:47,946 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-5 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-02-21 23:07:05,676 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-8 - Application started (Dev) (no global state)
-2019-02-21 23:07:05,941 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-2 - Application#index
-2019-02-21 23:07:12,761 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-4 - Application#init
-2019-02-21 23:07:12,852 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-4 - Application#index
-2019-02-21 23:07:17,251 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-2 - Application#detail
-2019-02-21 23:07:20,025 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-2 - Application#index
-2019-02-21 23:07:25,567 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-10 - [CSRF] Check failed because no or invalid token found in body for /actor/delete/2
-2019-02-21 23:07:25,570 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-10 - [CSRF] Check failed with NoTokenInBody for /actor/delete/2
-2019-02-21 23:07:30,430 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-6 - [CSRF] Check failed because no or invalid token found in body for /actor/delete/1
-2019-02-21 23:07:30,430 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-6 - [CSRF] Check failed with NoTokenInBody for /actor/delete/1
-2019-02-21 23:07:34,497 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-2 - Application#detail
-2019-02-21 23:07:38,226 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-2 - Application#create
-2019-02-21 23:07:43,295 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-14 - Application#index
-2019-02-21 23:08:27,597 [INFO] from play.core.server.AkkaHttpServer in pool-31-thread-3 - Stopping server...
-2019-02-21 23:08:27,614 [INFO] from application in application-akka.actor.default-dispatcher-15 - Shutting down connection pool.
+2019-02-23 08:44:47,949 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev) (no global state)
+2019-02-23 08:44:48,245 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-3 - Application#index
+2019-02-23 08:44:50,741 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-8 - Application#init
+2019-02-23 08:44:50,807 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-8 - Application#index
+2019-02-23 08:44:53,590 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-4 - Application#detail
+2019-02-23 08:44:55,744 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-6 - Application#index
+2019-02-23 08:44:56,834 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-5 - Application#create
+2019-02-23 08:45:12,649 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-9 - Application#save
+2019-02-23 08:45:12,864 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-9 - Application#index
+2019-02-23 08:45:19,261 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-6 - Application#delete
+2019-02-23 08:45:19,294 [INFO] from controllers.Application in application-akka.actor.default-dispatcher-6 - Application#index
+2019-02-23 08:47:01,729 [INFO] from play.core.server.AkkaHttpServer in pool-7-thread-2 - Stopping server...
+2019-02-23 08:47:03,457 [WARN] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-8 - Task [shutdown-application-dev-mode] failed in phase [service-stop]: Compilation error[インタフェース play.mvc.Http.RequestHeaderのメソッド flashは指定された型に適用できません。
+  期待値: 引数がありません
+  検出値: java.lang.String,java.lang.String
+  理由: 実引数リストと仮引数リストの長さが異なります]
+2019-02-23 09:56:13,538 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-2 housekeeper - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=48m25s181ms113µs253ns).
+2019-02-23 13:46:06,532 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-2 housekeeper - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3h47m51s465ms532µs271ns).
+2019-02-23 16:29:08,518 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-2 housekeeper - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=19m30s724ms721µs292ns).

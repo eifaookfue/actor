@@ -18,6 +18,7 @@ import play.data.FormFactory;
 import play.i18n.Messages;
 import play.i18n.MessagesApi;
 import play.mvc.Controller;
+import play.mvc.Http;
 import play.mvc.Result;
 import utils.DateParser;
 import views.form.ActorForm;
@@ -32,32 +33,33 @@ public class Application extends Controller{
 	@Inject
 	private MessagesApi messagesApi;
 
-	public Result index () {
+	public Result index (Http.Request request) {
 		logger.info("Application#index");
 		List<Actor> actor = Actor.finder.all();
-		return ok(index.render("Actor List", actor, messages()));
+		return ok(index.render("Actor List", actor, messagesApi.preferred(request)));
 	}
 
-	public Result detail(Long id) {
+	public Result detail(Http.Request request, Long id) {
 		logger.info("Application#detail");
 		Actor actor = Actor.finder.byId(id);
-		return ok(detail.render("Action Detail", actor, messages()));
+		return ok(detail.render("Action Detail", actor, messagesApi.preferred(request)));
 	}
 
-	public Result create() {
+	public Result create(Http.Request request) {
 		logger.info("Application#create");
 		ActorForm form  = new ActorForm();
 
 		Form<ActorForm> formData = formFactory.form(ActorForm.class).fill(form);
-		return ok(create.render("Actor Create", formData, messages()));
+		return ok(create.render("Actor Create", formData, messagesApi.preferred(request)));
 	}
 
-	public Result save() {
+	public Result save(Http.Request request) {
 		logger.info("Application#save");
 		Form<ActorForm> formData = formFactory.form(ActorForm.class).bindFromRequest();
 		if (formData.hasErrors()){
-			flash("error", messages().at("actor.validation.error"));
-			return badRequest(create.render("retry", formData, messages()));
+			Messages messages = messagesApi.preferred(request);
+			String message = messages.at("actor.validation.error");
+			return badRequest(create.render("retry", formData, messagesApi.preferred(request))).flashing("error",message);
 		} else {
 			Actor actor = Actor.convertToModel(formData.get());
 			Ebean.execute(() -> {
@@ -66,17 +68,18 @@ public class Application extends Controller{
 				actor.id = cnt == null ? 1L : (cnt + 1L);
 				actor.save();
 			});
-			flash("success", messages().at("actor.save.success"));
 		}
-		return redirect(routes.Application.index());
+		Messages messages = messagesApi.preferred(request);
+		String message = messages.at("actor.save.success");
+		return redirect(routes.Application.index()).flashing("success", message);
 	}
 
-	public Result delete(Long id) {
+	public Result delete(Http.Request request, Long id) {
 		logger.info("Application#delete");
 		if (id == null || id == 0L) {
-			flash("error", messages().at("actor.validation.error"));
+			Messages messages = messagesApi.preferred(request);
 			List<Actor> actor = Actor.finder.all();
-			return badRequest(index.render("Actor List", actor, messages()));
+			return badRequest(index.render("Actor List", actor, messages)).flashing("error", messages.at("actor.validation.error"));
 		} else {
 			Boolean result = Ebean.executeCall(() -> {
 				Actor actor = Actor.finder.byId(id);
@@ -85,15 +88,14 @@ public class Application extends Controller{
 			});
 
 			if (result) {
-				flash("success", messages().at("actor.delete.success"));
+				return redirect(routes.Application.index()).flashing("success", messagesApi.preferred(request).at("actor.delete.success"));
 			} else {
-				flash("error", messages().at("actor.delete.error"));
+				return redirect(routes.Application.index()).flashing("error", messagesApi.preferred(request).at("actor.delete.error"));
 			}
 		}
-		return redirect(routes.Application.index());
 	}
 
-	public Result init() {
+	public Result init(Http.Request request) {
 		logger.info("Application#init");
 
 		try (Transaction txn = Ebean.beginTransaction()) {
@@ -177,10 +179,6 @@ public class Application extends Controller{
 		}
 
 		return redirect(routes.Application.index());
-	}
-
-	protected Messages messages() {
-		return messagesApi.preferred(request());
 	}
 
 }
