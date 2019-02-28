@@ -3,6 +3,8 @@
 @import play.i18n._
 @import models.Prefecture
 
+@implicitField = @{ helper.FieldConstructor(myFieldConstructorTemplate.f) }
+
 @main("Actor Create", "俳優登録") {
     @if(flash.containsKey("error")) {
     <div class="row">
@@ -17,26 +19,30 @@
       <div class="col-md-12">
         <form class="form-horizontal" role="form" action="/actor/save" method="post">
           @defining(actorForm("id")) { idField =>
-            <input type="hidden" id="@idField.id" name="@idField.name" value="@idField.value">
+            <input type="hidden" id="@idField.id" name="@idField.name.get" value="@idField.value.get">
           }
+          <!--  name2 -->
+          @helper.inputText(actorForm("name"), 'labelname -> messages("actor.name"), 'value -> actorForm("name").value.getOrElse(""))
           <!-- name -->
           <div class="form-group">
             @defining(actorForm("name")) { nameField =>
             <label for="nameField.id" class="col-sm-2 control-label">@messages("actor.name")</label>
             <div class="col-sm-10">
-              <input type="text" id="@nameField.id" class="form-control" name="@nameField.name" value="@nameField.value">
+              <input type="text" id="@nameField.id" class="form-control" name="@nameField.name.get" value="@nameField.value.get">
               @if(nameField.hasErrors) {
               <span class="help-block">@nameField.errors.mkString(", ")</span>
               }
             </div>
             }
           </div>
+          <!-- height2 -->
+          @helper.inputText(actorForm("height"), 'labelname -> messages("actor.height"), 'value -> actorForm("name").value.getOrElse(""))
           <!-- height -->
           <div class="form-group">
             @defining(actorForm("height")) { heightField =>
             <label for="heightField.id" class="col-sm-2 control-label">@messages("actor.height")</label>
             <div class="col-sm-10">
-              <input type="text" id="@heightField.id" class="form-control" name="@heightField.name" value="@heightField.value">
+              <input type="text" id="@heightField.id" class="form-control" name="@heightField.name.get" value="@heightField.value.get">
               @if(heightField.hasErrors) {
               <span class="help-block">@heightField.errors.mkString(", ")</span>
               }
@@ -48,7 +54,7 @@
             @defining(actorForm("blood")) { bloodField =>
             <label for="bloodField.id" class="col-sm-2 control-label">@messages("actor.blood")</label>
             <div class="col-sm-10">
-              <input type="text" id="@bloodField.id" class="form-control" name="@bloodField.name" value="@bloodField.value">
+              <input type="text" id="@bloodField.id" class="form-control" name="@bloodField.name.get" value="@bloodField.value.get">
               @if(bloodField.hasErrors) {
               <span class="help-block">@bloodField.errors.mkString(", ")</span>
               }
@@ -60,7 +66,7 @@
             @defining(actorForm("birthday")) { birthdayField =>
             <label for="birthdayField.id" class="col-sm-2 control-label">@messages("actor.birthday")</label>
             <div class="col-sm-10">
-              <input type="text" id="@birthdayField.id" class="form-control" name="@birthdayField.name" value="@birthdayField.value">
+              <input type="text" id="@birthdayField.id" class="form-control" name="@birthdayField.name.get" value="@birthdayField.value.get">
               @if(birthdayField.hasErrors) {
               <span class="help-block">@birthdayField.errors.mkString(", ")</span>
               }
@@ -72,7 +78,7 @@
             @defining(actorForm("birthplaceId")) { birthplaceIdField =>
             <label for="birthplaceIdField.id" class="col-sm-2 control-label">@messages("actor.birthplace")</label>
             <div class="col-sm-10">
-              <select id="@birthplaceIdField.id" class="form-control" name="@birthplaceIdField.name">
+              <select id="@birthplaceIdField.id" class="form-control" name="@birthplaceIdField.name.get">
                 <option value="">---</option>
                 @for(pref <- Prefecture.list()) {
                 <option value="@pref.id">@pref.name</option>

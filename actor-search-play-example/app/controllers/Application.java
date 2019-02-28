@@ -55,7 +55,8 @@ public class Application extends Controller{
 
 	public Result save(Http.Request request) {
 		logger.info("Application#save");
-		Form<ActorForm> formData = formFactory.form(ActorForm.class).bindFromRequest();
+		Form<ActorForm> formData = formFactory.form(ActorForm.class).bindFromRequest(request);
+		logger.info(formData.get().toString());
 		if (formData.hasErrors()){
 			Messages messages = messagesApi.preferred(request);
 			String message = messages.at("actor.validation.error");
