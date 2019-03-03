@@ -1,4 +1,4 @@
-@(message: String, actorForm: Form[views.form.ActorForm], messages: play.i18n.Messages)
+@(message: String, actorForm: Form[views.form.ActorForm])(implicit messages: play.i18n.Messages)
 
 @import play.i18n._
 @import models.Prefecture
@@ -21,58 +21,14 @@
           @defining(actorForm("id")) { idField =>
             <input type="hidden" id="@idField.id" name="@idField.name.get" value="@idField.value.get">
           }
-          <!--  name2 -->
+          <!--  name -->
           @helper.inputText(actorForm("name"), 'labelname -> messages("actor.name"), 'value -> actorForm("name").value.getOrElse(""))
-          <!-- name -->
-          <div class="form-group">
-            @defining(actorForm("name")) { nameField =>
-            <label for="nameField.id" class="col-sm-2 control-label">@messages("actor.name")</label>
-            <div class="col-sm-10">
-              <input type="text" id="@nameField.id" class="form-control" name="@nameField.name.get" value="@nameField.value.get">
-              @if(nameField.hasErrors) {
-              <span class="help-block">@nameField.errors.mkString(", ")</span>
-              }
-            </div>
-            }
-          </div>
-          <!-- height2 -->
-          @helper.inputText(actorForm("height"), 'labelname -> messages("actor.height"), 'value -> actorForm("name").value.getOrElse(""))
           <!-- height -->
-          <div class="form-group">
-            @defining(actorForm("height")) { heightField =>
-            <label for="heightField.id" class="col-sm-2 control-label">@messages("actor.height")</label>
-            <div class="col-sm-10">
-              <input type="text" id="@heightField.id" class="form-control" name="@heightField.name.get" value="@heightField.value.get">
-              @if(heightField.hasErrors) {
-              <span class="help-block">@heightField.errors.mkString(", ")</span>
-              }
-            </div>
-            }
-          </div>
+          @helper.inputText(actorForm("height"), 'labelname -> messages("actor.height"), 'value -> actorForm("name").value.getOrElse(""))
           <!-- blood -->
-          <div class="form-group">
-            @defining(actorForm("blood")) { bloodField =>
-            <label for="bloodField.id" class="col-sm-2 control-label">@messages("actor.blood")</label>
-            <div class="col-sm-10">
-              <input type="text" id="@bloodField.id" class="form-control" name="@bloodField.name.get" value="@bloodField.value.get">
-              @if(bloodField.hasErrors) {
-              <span class="help-block">@bloodField.errors.mkString(", ")</span>
-              }
-            </div>
-            }
-          </div>
+          @helper.inputText(actorForm("blood"), 'labelname -> messages("actor.blood"), 'value -> actorForm("blood").value.getOrElse(""))
           <!-- birthday -->
-          <div class="form-group">
-            @defining(actorForm("birthday")) { birthdayField =>
-            <label for="birthdayField.id" class="col-sm-2 control-label">@messages("actor.birthday")</label>
-            <div class="col-sm-10">
-              <input type="text" id="@birthdayField.id" class="form-control" name="@birthdayField.name.get" value="@birthdayField.value.get">
-              @if(birthdayField.hasErrors) {
-              <span class="help-block">@birthdayField.errors.mkString(", ")</span>
-              }
-            </div>
-            }
-          </div>
+          @helper.inputText(actorForm("birthday"), 'labelname -> messages("actor.birthday"), 'value -> actorForm("birthday").value.getOrElse(""))
           <!-- birthplaceId -->
           <div class="form-group">
             @defining(actorForm("birthplaceId")) { birthplaceIdField =>

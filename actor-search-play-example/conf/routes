@@ -6,7 +6,9 @@ GET     /                           controllers.Application.index(request: Reque
 GET     /actor                      controllers.Application.index(request: Request)
 GET     /actor/detail/:id           controllers.Application.detail(request: Request, id: Long)
 GET     /actor/create               controllers.Application.create(request: Request)
++ nocsrf
 POST    /actor/save                 controllers.Application.save(request: Request)
++ nocsrf
 POST    /actor/delete/:id           controllers.Application.delete(request: Request, id: Long)
 
 GET     /init                       controllers.Application.init(request: Request)
